@@ -14,36 +14,34 @@
 <body>
     <div class="jumbotron">
         <h1 class="display-4">New York City Trivial Pursuit</h1>
-        <p class="lead">This game is timed, you have 30 seconds to answer each question once you click start</p>
+        <p class="lead">This game is timed, you have 15 seconds to answer each question once you click start</p>
         <hr class="my-4">
+
         <p>Remember this game is not your average game, next time you are in New York, don't be such a tourist, if you
             get lost just ask someone, and most importantly don't eat your pizza with a folk, I will personally smack
             ya...good luck</p>
-        <!-- On the click event it should start the game, need to reference the js file and add a jQuery for elements -->
-        <a id="initiate-game" class="btn btn-primary btn-lg" href="#" role="button">Press to Play</a>
     </div>
 
-    <div>
-        <div id="initiate-game"></div>
-        <div id="timer"></div>
-
-        <div id="randQuestion"></div>
-
-        <button id="Submit"></button>
-
-        <div id="stats"></div>
-
+    <div id="game" class="container">
+    <h1>Trivial Trivia</h1>
+    <div id='game-play'>
+      <div id='timer'></div>
+      <div id='question'></div>
+      <div id='responses'></div>
+      <button id='start'>Start game</button>
     </div>
-
-    <!-- Footer -->
-    <footer class="page-footer font-small blue">
-
-        <!-- Copyright -->
-        <!-- need to fix styling// -->
-        <div class="container-fluid sticky-bottom navbar-fixed-bottom">© 2018 Copyright: JA Hospitality Services (JHS):
+    <div id='results'>
+      <h1>Game Over</h1>
+      <div id='correct'></div>
+      <div id='incorrect'></div>
+      <div id='unanswered'></div>
+      <button id='restart'>Replay</div>
+    </div>
+    </div>
+    
+    <footer id="footer" class="footer">
+        <div class="footer">© 2018 Copyright: JA Hospitality Services (JHS):
         </div>
-        <!-- Copyright -->
-
     </footer>
 </body>
 <script src="./assets/javascript/app.js"></script>
