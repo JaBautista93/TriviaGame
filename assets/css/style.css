@@ -10,7 +10,7 @@ body {
     background: url("../images/stock-vector-seamless-new-york-city-travel-icons-and-american-landmark-brooklyn-and-central-park-illustration-218817157.jpg");  
 }
   
-.footer {
+#footer {
     position: relative;
     padding: 30px 0;
     clear: both;
